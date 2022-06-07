@@ -44,10 +44,10 @@ while input("Do you want to play a game of Blackjack? Type 'y' or 'n': ") == "y"
     def win_loose(a, b):
         if (a > 21 and b > 21) or (a == b):
             print("It's a draw!")
-        elif a > 21 or a < b:
-            print("You loose!")
-        else:
+        elif (a <= 21 and a > b) or (a <= 21 and b > 21):
             print("You win!")
+        else:
+            print("You loose!")
 
     def main():
         player_first_hand()
