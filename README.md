@@ -1,3 +1,1 @@
-# IIThaneII
-100 days of Python files
-In progress...
+
