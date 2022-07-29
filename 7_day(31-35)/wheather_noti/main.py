@@ -7,8 +7,8 @@ parameters = {
     "days": 2,
 }
 
-account_sid = "ACddae4be71f292bfaab501a697d7b9e9d"
-auth_token = "f0d7e790244e92aa132321d5c6cd2b39"
+account_sid = "ACddae4be7******************b9e9d"
+auth_token = "f0d7e7902*******************b39"
 client = Client(account_sid, auth_token)
 
 response = requests.get(url="https://api.weatherapi.com/v1/forecast.json", params=parameters)
