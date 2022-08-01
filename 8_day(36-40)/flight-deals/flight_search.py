@@ -2,7 +2,7 @@ import requests
 
 flight_search_url = "http://tequila-api.kiwi.com/v2/search"
 get_iata_url = "https://tequila-api.kiwi.com/locations/query"
-api_key = "yc-i-0Ptd7MnaNbJZINu02PykKVVXQbY"
+api_key = "yc-i-0Ptd7*********************Y"
 
 header = {
     "apikey": api_key
