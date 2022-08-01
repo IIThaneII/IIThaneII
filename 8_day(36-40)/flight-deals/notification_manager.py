@@ -1,8 +1,8 @@
 from email import message
 from twilio.rest import Client
 
-account_sid = "ACddae4be71f292bfaab501a697d7b9e9d"
-auth_token = "1cb1353de176b3549ec450f5ea929853"
+account_sid = "ACddae4b*************b9e9d"
+auth_token = "1cb1353d******8******f5ea929853"
 client = Client(account_sid, auth_token)
 
 class NotificationManager:
@@ -11,7 +11,7 @@ class NotificationManager:
         .create(
             body=self.message,
             from_="+17432008088",
-            to="+84963425495"
+            to="+84********"
         )
         print(self.message.status)
 
