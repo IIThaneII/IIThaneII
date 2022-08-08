@@ -3,7 +3,7 @@ import requests
 import smtplib
 
 my_email = "nguyennam2741@yahoo.com"
-my_password = "G-5*EqpY!mLrijH"
+my_password = "your password"
 
 URL = f"https://www.amazon.com/Kindle-Paperwhite-Essentials-Bundle-including/dp/B09FBXR5Q8/ref=sr_1_3?crid=1KAVVINZLWW7F&keywords=kindle&qid=1659596710&sprefix=kindl%2Caps%2C713&sr=8-3"
 
