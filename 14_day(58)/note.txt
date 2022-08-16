@@ -1,0 +1,106 @@
+⚡ 𝕎𝕖𝕓 𝔽𝕠𝕦𝕟𝕕𝕒𝕥𝕚𝕠𝕟 𝔹𝕠𝕠𝕥𝕤𝕥𝕣𝕒𝕡 ⚡ (a f*cking long day before advanced levels)
+
+- https://www.submarinecablemap.com/
+=> Submarine cable map.
+
+- https://getbootstrap.com/ 
+=> Bootstrap homepage and documentation link.
+
+- https://www.codeply.com/
+=> Online IDE for some code (bootstrap for example).
+
+- https://dribbble.com/search/website
+- https://www.awwwards.com/websites/com/
+=> Places to get your website idea.
+
+- https://balsamiq.com/
+- https://sneakpeekit.com/
+=> Use to create a website layout, your imagination of the project.
+
+- https://fontawesome.com/icons?d=gallery&q=apple
+=> Icon supermarket for commercial use.
+
+- https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Positioning/Understanding_z_index/Adding_z-index
+=> z-index documentation.
+
+- https://www.codeply.com/p/0fYVdrVmZM
+=> z-index example.
+
+- https://search.google.com/test/mobile-friendly
+=> Website moblie friendly test.
+
+
+
+🚨 Add in the body tag to use the bootstrap template. 🚨
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<!-- Add three line above to use some actions, animations. -->
+
+
+
+🚨 Note alert 🚨 
+- CSS styles are applied in the order they are linked in your HTML code. If your custom styles are 
+not overriding the bootstrap styles, all you need to do is move the link to your custom stylesheet 
+to a line after the bootstrap CDN link. This means that you first load the default bootstrap styles, 
+then you can override some of those components with your own custom CSS. Unlike CSS and JavaScript, 
+HTML code is executed from top to bottom so the order of your code matters.
+
+- If you had two stylesheets e.g. styles1.css and styles2.css which both target the same element e.g.
+
+styles1.css
+body {background-color: red;}
+
+styles2.css
+body {background-color: blue;}
+
+- If inside the head section if your HTML, you list your links as this:
+
+<link rel="stylesheet" href="styles1.css"><link rel="stylesheet" href="styles2.css">
+=> The resulting page will be blue.
+
+- But if you listed your links like this:
+
+<link rel="stylesheet" href="styles2.css"><link rel="stylesheet" href="styles1.css">
+=> The resulting page will be red.
+
+
+
+🚨
+@media <type> <feature>
+// Conditional CSS.
+
+eg moblie modify:
+@media screen (max-width: 900px) {
+    //Change something
+}
+
+
+
+🚨 Combining Selectors
+h1, h2, h3, h4, h5, h6 {
+    color:red;
+}
+=> seclect all headers.
+
+div(parent) .title(child) { //right to left
+    color: red; 
+}
+=> to specify the color of the class name title in side the specific div.
+
+.selector.selector {
+
+}
+or
+.selector#selector {
+
+}
+
+
+
+🚨⚡🚨⚡ Inline > Internal > External(Id > Class > Tags) 🚨⚡🚨⚡

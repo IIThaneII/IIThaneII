@@ -1,0 +1,191 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+/* Headings */
+
+.big-heading {
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+.section-heading {
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+/* Container fluid */
+
+.description {
+    color: #8f8f8f;
+}
+
+.container-fluid {
+    padding: 3% 15% 9%;
+}
+
+#title {
+    background-color: #ff4c68;
+    color: whitesmoke;
+    text-align: left;
+}
+
+.feature {
+    padding: 6%;
+}
+
+#features {
+    padding: 7% 15%;;
+    background-color: white;
+    position: relative;
+}
+
+/* Navbar navigation */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+/* Downloaded button */
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/* Feature secttion */
+
+.feature-title {
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.feature-icon {
+    color: #ef8172;
+    font-size: 4rem;
+    margin-bottom: 5%;
+}
+
+.feature-icon:hover {
+    color: #ff4c68;
+}
+
+/* Title image */
+
+.title-image {
+    width: 57%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+    background-color: #ef8172;
+    color: whitesmoke;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #ef8172;
+    padding: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+    padding: 100px;
+}
+
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+.dog-name {
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+.pricing-col {
+    padding: 3% 2%;
+}
+
+/* Media Query Breakpoints for mobile devices */
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+/* Call to action */
+
+#cta {
+    background-color: #ff4c68;
+    padding-top: 5%;
+}
+
+.cta-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    color: whitesmoke;
+    line-height: 1.5;
+    font-size: 3.5rem;
+    padding: 0 25%;
+}
+
+/* Footer */
+
+#footer {
+    background-color: white;
+    padding-top: 4%;
+}
+
+.footer-icons {
+    padding: 13px;
+}
