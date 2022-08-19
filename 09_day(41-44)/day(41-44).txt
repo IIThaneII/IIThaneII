@@ -1,0 +1,97 @@
+Decription.
+4 Days of basic web development.
+
+*** https://colorhunt.com *** 
+_Link to the colorhunt site_
+
+* Make your website goes online
+- Create a repository on github then select source code in your main Branch.
+(GitHub Pages is designed to host your personal, organization, or project pages from a GitHub repository).
+
+* Form in HTML
+<form action="">  do the action when you click submit.
+    <label>...</label>
+    <input type="...">
+    <input type="...">
+</form>
+
+* Table in HTML
+<table border="1">
+    <thead>                 table head
+        <tr>                table row
+            <th></th>       table heading
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td></td>       table data
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+        </tr>
+    </tbody>
+    <tfoot> </tfoot>
+</table>
+
+* Inline CSS
+- In the body tag.
+- Have to change the style of the element in each line.
+
+* Internal CSS
+- Between the head tags.
+- Change all the style of the elements in that file but hard to reuse.
+
+* External CSS
+- New file of CSS.
+- Change all the style of the elements in all files which link to this file.
+
+Priority
+Inline CSS > Internal CSS > External CSS.
+
+* CSS syntax
+selector {property:value;}
+
+* ID selector
+- Only one id can be named for that element and id > tag (more specific).
+
+* CLASS selector
+- Can named for many elements in order to group them and select CSS for them (can use many classes in one element).
+
+* Pseudo-class selector
+- Go to bacon image CSS to check.
+
+* <div> </div> tag
+- Create a box with margin, border, padding and the main box contain elements.
+
+* <span> </span> tag
+<p>a data <span class="sci">science</span> student.</p>
+.sci {
+    text decoration: underline;
+}
+==> use span to css a specific part of a paragraph.
+
+* Inline element // does not take up all the space.
+<span></span>, <img></img>, <a></a>.
+
+* CSS display property
+- display: inline; // makes all elements in one line (cannot change the width).
+- display: block; // makes all elements in one block (can change the width but not in the same line).
+- display: inline-block; // do both things.
+- display: none; // makes the element disappear in the screen (can use in quiz).
+- visibility: hidden; // just hide the element and keep the background stay still.
+
+* CSS Position
+- Static positioning is the default position of HTML with children sit on parents rule and order from the top to the bottom.
+- Relative positioning is add the margin to the element from where it should have been. ==> only change the position of that element and doesn't affect other elements.
+eg: img {
+    position: relative;
+    left: 30px; 
+} // moves the image to the left 30px from the default position. 
+- Absolute positioning is add the margin to its parent element.
+- Fixed positioning is stick the element to one position (it will stay the same when you scroll).
+
+* Button generator site
+https://css3buttongenerator.com/
