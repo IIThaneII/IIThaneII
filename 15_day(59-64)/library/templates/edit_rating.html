@@ -1,0 +1,15 @@
+{% extends 'bootstrap/base.html' %}
+{% import "bootstrap/wtf.html" as wtf %}
+{% block title %}Change Rating{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-8">
+        <p>Book name: {{ book.title }}</p>
+        <p>Current Rating: {{ book.rating }}</p>
+        {{ wtf.quick_form(form, novalidate=True) }}
+        </div>
+    </div>
+</div>
+{% endblock %}
